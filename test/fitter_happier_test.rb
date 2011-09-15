@@ -1,7 +1,7 @@
 ENV['RAILS_ENV'] = 'test'
-require File.expand_path(File.dirname(__FILE__) + '/../../../../test/test_helper')
-require 'test_help'
-
+require 'bundler/setup'
+require 'action_controller'
+require 'app/controllers/fitter_happier_controller'
 class FitterHappierTest < ActionController::TestCase
   def setup
     @controller = FitterHappierController.new
