@@ -1,7 +1,7 @@
 FitterHappier
 =============
 
-FitterHappier is a Rails plug-in that provides actions for monitoring site and/or database availability. FitterHappier's monitoring controller disables unnecessary Rails features, like sessions, layouts, and logging, for lightning-fast monitoring URIs.  
+FitterHappier provides actions for monitoring a rails site and database availability. FitterHappier's monitoring controller disables unnecessary Rails features, like sessions, layouts, and logging, for lightning-fast monitoring URIs.  
 
 FitterHappier provides three monitoring URIs 
 
@@ -17,9 +17,9 @@ FitterHappier provides three monitoring URIs
 
 Installation
 ============
+Add the following to your gemfile
 
-    % cd vendor/plugins
-    % git clone git://github.com/atmos/fitter_happier.git
+    gem 'fitter-happier'
 
 Uptime Monitoring
 =================
