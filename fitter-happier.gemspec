@@ -13,4 +13,9 @@ Gem::Specification.new do |s|
 
   s.files        = Dir.glob("{lib,app,config,rails}/**/*") + %w( CHANGELOG MIT-LICENSE README.mdown )
   s.require_path = 'lib'
+
+  s.add_runtime_dependency("actionpack")
+
+  s.add_development_dependency("rake")
 end
+
