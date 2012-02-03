@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email        = ['zspencer@zacharyspencer.com']
   s.homepage     = 'https://github.com/zspencer/fitter-happier'
   s.summary      = 'FitterHappier is a plug-in that provides actions for monitoring site and/or database availability for rails apps.'
-  s.description  = 'send bug reports to http://github.com/zspencer/fitter-happier/'
+  s.description  = 'Send bug reports to http://github.com/zspencer/fitter-happier/'
 
   s.files        = Dir.glob("{lib,app,config,rails}/**/*") + %w( CHANGELOG MIT-LICENSE README.mdown )
   s.require_path = 'lib'
